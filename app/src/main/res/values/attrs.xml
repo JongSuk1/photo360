@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PanoImageView">
+        <attr format="boolean" name="piv_enablePanoMode"/>
+        <attr format="boolean" name="piv_invertScrollDirection"/>
+        <attr format="boolean" name="piv_show_scrollbar"/>
+    </declare-styleable>
+</resources>

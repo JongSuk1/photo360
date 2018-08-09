@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/kakao/photo360/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/kakao/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kakao/photo360/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "/Users/kakao/photo360/app/src/main/JniLibs/arm64-v8a/libopencv_java3.so",
+			"toolchain" : "6293587793845344848"
+		},
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/kakao/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kakao/photo360/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/kakao/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kakao/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/Users/kakao/Downloads/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/kakao/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/kakao/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/kakao/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/kakao/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/kakao/photo360/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/kakao/photo360/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/kakao/photo360/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "6293587793845344848"
+		}
+	},
+	"toolchains" : 
+	{
+		"6293587793845344848" : 
+		{
+			"cCompilerExecutable" : "/Users/kakao/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kakao/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
